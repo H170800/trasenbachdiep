@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    list-style: none;
+}
+.positionAbsolute{
+    position: absolute;
+}
+.positionReletive{
+    position: relative;
+}
+.main-body{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+/* Thanh menu */
+#navbar-Menu{
+    display: flex;
+}
+#navbar-Menu a{
+    color: #000;
+    margin-right: 2.7rem;
+    font-size: 0.65em;
+    font-weight: bold;
+    font-family: "SVN-Athena_0";
+}
+#navbar-Menu a:hover{
+    color: #aabc44;
+}
+#navbar-Logo{
+    margin-right: 13rem
+}
+/* Trà sen bách diệp */
+.img-01{
+    background-image: url(/img/gioithieu/banner.jpg);
+    background-size: 57rem;
+    background-repeat: no-repeat;
+    border: 1px;
+    height: 38rem;
+}
+.img-02{
+    background-image: url(/img/gioithieu/banner2.jpg);
+    background-size: 57rem;
+    background-repeat: no-repeat;
+    border: 1px;
+    height: 38rem;
+}
+@font-face {
+    font-family: "SVN-Athena_0";
+    src: url(/fonts/SVN-Athena_0.ttf);
+}
+.content-01 p{
+    font-family: "SVN-Athena_0";
+    color: #aabc44;
+    font-size: 1rem;
+    padding-top: 11rem;
+    padding-left: 14.5rem;
+}
+.content-01 h5{
+    font-family: "SVN-Athena_0";
+    font-size: 2rem;
+    padding-left: 14.5rem;
+    top: 15.5rem;
+}
+.content-02 h4{
+    font-family: "SVN-Athena_0";
+    padding-top: 14rem;
+    padding-left: 24rem;
+}
+/*Text*/
+.text{
+    border: 1px;
+    width: 38rem;
+    height: auto;
+    margin-left: 8rem;
+    margin-top: -6rem;
+}
+.text p{
+    font-family: "SVN-Athena_0";
+    font-size: 0.7rem;
+    text-align: justify;
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+}
+.text img{
+    width: 38rem;
+    padding-bottom: 1.5rem;
+}
+
+/* footer */
+.row{
+    float:left;
+    margin-top: 11rem;
+}
+.background-img{
+    background-image: url(/img/trangchu/fotter.png);
+    background-size: 57rem;
+    background-repeat: no-repeat;
+    border: 1px;
+    width: 57rem;
+    margin-left: 2.75rem;
+    margin-bottom:-6rem;
+    height: 8rem;
+}
+.boxfooter1{
+    float:left;
+    margin-left: 10rem;
+}
+.boxfooter1 img{
+    width: 7rem;
+    margin-bottom: 0.5rem;
+}
+.information1{
+    font-size: 0.5rem;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+    margin-bottom: 0,6rem;
+}
+.boxfooter2{
+    float:left;
+    margin-left: 9rem;
+}
+.boxfooter2 h6{
+    font-size: 0.6rem;
+    padding-top:0.8rem;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+}
+.information2{
+    margin-bottom:-0.6rem;
+}
+.information2 a{
+    font-size:0.5rem; 
+    text-decoration: none;
+    color: black;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+}
+
+.information2 a:hover{
+    color: #aabc44;
+    text-decoration-line: none;
+}
+.boxfooter3{
+    float:left;
+    margin-left: 9rem;
+}
+.boxfooter3 h6{
+    font-size: 0.6rem;
+    padding-top:0.8rem;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+}
+.boxfooter3 img{
+    width: 5rem;
+}
+.information3{
+    font-size: 0.5rem;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+}

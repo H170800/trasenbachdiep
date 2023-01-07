@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    list-style: none;
+}
+.positionAbsolute{
+    position: absolute;
+}
+.positionReletive{
+    position: relative;
+}
+@font-face {
+    font-family: "SVN-Athena_0";
+    src: url(/fonts/SVN-Athena_0.ttf);
+}
+.main-body{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+/* Thanh menu */
+#navbar-Menu{
+    display: flex;
+}
+#navbar-Menu a{
+    color: #000;
+    margin-right: 2.7rem;
+    font-size: 0.65em;
+    font-weight: bold;
+    font-family: "SVN-Athena_0";
+}
+#navbar-Menu a:hover{
+    color: #aabc44;
+}
+#navbar-Logo{
+    margin-right: 13rem
+}
+#navbarNavAltMarkup{
+    margin-left: -4rem;
+}
+/* body */
+.img-01{
+    background-image: url(/img/lienhe/banner.jpg);
+    background-size: 63.5rem;
+    background-repeat: no-repeat;
+    border: 1px;
+    height: 54rem;
+}
+.img-01{
+    background-image: url(/img/lienhe/banner.jpg);
+    background-size: 63.5rem;
+    background-repeat: no-repeat;
+    border: 1px;
+    height: 38rem;
+}
+.img-01 h4{
+    margin-left: 35rem;
+    padding-top: 6rem;
+    font-size: 1rem;
+}
+.form-01 input{ 
+    margin-left:35rem;
+    margin-bottom: 0.4rem;
+    border: 2px solid #aabc44;
+    width: 18rem;
+}
+::placeholder{
+    font-size: 0.4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+    padding: 0.7rem;
+}
+#send{
+    border: 2px solid #aabc44;
+    background-color: #aabc44;
+    color: white;
+    width: 4rem;
+    height: 1.8rem;
+    font-size: 0.6rem;
+}
+
+
+  /* footer */
+  .row{
+    float:left;
+    margin-top: -10rem;
+}
+.background-img{
+    background-image: url(/img/trangchu/fotter.png);
+    background-size: 57rem;
+    background-repeat: no-repeat;
+    border: 1px;
+    width: 57rem;
+    margin-left: 2.75rem;
+    margin-bottom:-6rem;
+    height: 8rem;
+}
+.boxfooter1{
+    float:left;
+    margin-left: 10rem;
+}
+.boxfooter1 img{
+    width: 7rem;
+    margin-bottom: 0.5rem;
+}
+.information1{
+    font-size: 0.5rem;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+    margin-bottom: 0,6rem;
+}
+.boxfooter2{
+    float:left;
+    margin-left: 9rem;
+}
+.boxfooter2 h6{
+    font-size: 0.6rem;
+    padding-top:0.8rem;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+}
+.information2{
+    margin-bottom:-0.6rem;
+}
+.information2 a{
+    font-size:0.5rem; 
+    text-decoration: none;
+    color: black;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+}
+
+.information2 a:hover{
+    color: #aabc44;
+    text-decoration-line: none;
+}
+.boxfooter3{
+    float:left;
+    margin-left: 9rem;
+}
+.boxfooter3 h6{
+    font-size: 0.6rem;
+    padding-top:0.8rem;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+}
+.boxfooter3 img{
+    width: 5rem;
+}
+.information3{
+    font-size: 0.5rem;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+}

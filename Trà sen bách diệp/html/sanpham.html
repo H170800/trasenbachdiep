@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm</title>
+    <link rel="stylesheet" href="/css/sanpham.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ <!-- Thanh menu -->
+ <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <!-- Logo -->
+        <a class="navbar-brand" href="/html/trangchu.html" id="navbar-Logo">
+            <img src="/img/trangchu/logophongtra.png" width="auto" height="40rem" alt="">
+        </a>
+        <!-- Menu -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav" id="navbar-Menu">
+            <a class="nav-item nav-link active" href="/html/trangchu.html">TRANG CHỦ<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="/html/gioithieu.html">GIỚI THIỆU<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="/html/sanpham.html">SẢN PHẨM<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="/html/tintuc.html">TIN TỨC<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="/html/lienhe.html">LIÊN HỆ<span class="sr-only">(current)</span></a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div class="main-body">
+    <div class="img-01">
+        <H1>SẢN PHẨM</H1>
+    </div>
+    <div class="article">
+        <div class="bread-crum">
+            <p class="blur"><a href="/html/trangchu.html">Trang chủ</a></p>
+            <p class="blur">></p>
+            <p class="non-blur">Sản phẩm</p>
+        </div>
+        <h4>Sản phẩm</h4>
+      <hr>
+      <div class="side-body positionReletive">
+        <p class="blur">Bộ lọc sản phẩm</p>
+        <div class="side-box positionAbsolute">
+          <p>Loại sản phẩm</p>
+          <div class="check-box01">
+            <label><input onchange="chonTra()" type="checkbox" class="filter01" value="traxanhthainguyen">Trà xanh Thái Nguyên</label>
+            <label><input onchange="chonTra()" type="checkbox" class="filter01" value="traoolong">Trà Oolong</label>
+            <label><input onchange="chonTra()" type="checkbox" class="filter01" value="trashantuyet">Trà Shan tuyết</label>
+            <label><input onchange="chonTra()" type="checkbox" class="filter01" value="trasen">Trà sen</label> <br>
+            <label><input onchange="chonTra()" type="checkbox" class="filter01" value="tralai">Trà lài</label> <br>
+            <label><input onchange="chonTra()" type="checkbox" class="filter01" value="trathaoduoc">Trà thảo dược</label>
+            <label><input onchange="chonTra()" type="checkbox" class="filter01" value="dungcupatra">Dụng cụ pha trà</label>
+            <label><input onchange="chonTra()" type="checkbox" class="filter01" value="nuocphatra">Nước pha trà</label>
+          </div>
+          <div class="price-filter">
+            <p>Giá thành</p>
+            <label><input type="range" class="filter02" value="giasanpham">Từ 50.000 đến 200.000</label>
+          </div>
+          <div class="check-box02">
+            <p>Thương hiệu</p>
+            <label><input type="checkbox" class="filter03" value="tratancuongxanh">Trà Tân Cương Xanh</label>
+            <label><input type="checkbox" class="filter03" value="trasentayho">Trà Sen Tây Hồ</label>
+            <label><input type="checkbox" class="filter03" value="traloctan">Trà Lộc Tân</label>
+          </div>
+        </div>
+        <div class="right-box positionAbsolute">
+          <div class="main-box">
+            <div class="product01 positionReletive">
+              <div class="stars">
+                <form action="">
+                  <label class="star star-5" for="star-5" checked></label>
+                  <label class="star star-4" for="star-4"></label>
+                  <label class="star star-3" for="star-3"></label>
+                  <label class="star star-2" for="star-2"></label>
+                  <label class="star star-1" for="star-1"></label>
+                  <p class="box02-blur">(17)</p>
+                </form>
+              </div> 
+              <div class="new">
+                <p>New</p>
+              </div>
+              <img src="/img/sanpham/trashantuyet.jpg" alt="" class="positionAbsolute">
+              <div class="positionAbsolute title">
+                <a href="/html/chitietsanpham.html">Trà San Tuyết</a>
+              </div>
+              <div class="price positionAbsolute ">
+                <p class="price-number">50,000</p>
+                <p class="price-curency">VND</p>
+                <select>
+                  <option>200g</option>
+                  <option>400g</option>
+                  <option>600g</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="main-box">
+            <div class="product01 positionReletive">
+              <div class="stars">
+                <form action="">
+                  <label class="star star-5" for="star-5" checked></label>
+                  <label class="star star-4" for="star-4"></label>
+                  <label class="star star-3" for="star-3"></label>
+                  <label class="star star-2" for="star-2"></label>
+                  <label class="star star-1" for="star-1"></label>
+                  <p class="box02-blur">(27)</p>
+                </form>
+              </div> 
+              <div class="new">
+                <p>New</p>
+              </div>
+              <img src="/img/sanpham/traoolong.jpg" alt="" class="positionAbsolute">
+              <div class="positionAbsolute title02">
+                <a href="/html/chitietsanpham.html">Trà Oolong</a>
+              </div>
+              <div class="price positionAbsolute ">
+                <p class="price-number">70,000</p>
+                <p class="price-curency">VND</p>
+                <select>
+                  <option>200g</option>
+                  <option>400g</option>
+                  <option>600g</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="main-box">
+            <div class="product01 positionReletive">
+              <div class="stars">
+                <form action="">
+                  <label class="star star-5" for="star-5" checked></label>
+                  <label class="star star-4" for="star-4"></label>
+                  <label class="star star-3" for="star-3"></label>
+                  <label class="star star-2" for="star-2"></label>
+                  <label class="star star-1" for="star-1"></label>
+                  <p class="box02-blur">(27)</p>
+                </form>
+              </div> 
+              <div class="new">
+                <p>New</p>
+              </div>
+              <img src="/img/sanpham/trabup.jpg" alt="" class="positionAbsolute">
+              <div class="positionAbsolute title03">
+                <a href="/html/chitietsanpham.html">Trà Búp</a>
+              </div>
+              <div class="price positionAbsolute ">
+                <p class="price-number">70,000</p>
+                <p class="price-curency">VND</p>
+                <select>
+                  <option>200g</option>
+                  <option>400g</option>
+                  <option>600g</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="main-box">
+            <div class="product01 positionReletive">
+              <div class="stars">
+                <form action="">
+                  <label class="star star-5" for="star-5" checked></label>
+                  <label class="star star-4" for="star-4"></label>
+                  <label class="star star-3" for="star-3"></label>
+                  <label class="star star-2" for="star-2"></label>
+                  <label class="star star-1" for="star-1"></label>
+                  <p class="box02-blur">(17)</p>
+                </form>
+              </div> 
+              <div class="new">
+                <p>New</p>
+              </div>
+              <img src="/img/sanpham/trashantuyet.jpg" alt="" class="positionAbsolute">
+              <div class="positionAbsolute title">
+                <a href="/html/chitietsanpham.html">Trà San Tuyết</a>
+              </div>
+              <div class="price positionAbsolute ">
+                <p class="price-number">50,000</p>
+                <p class="price-curency">VND</p>
+                <select>
+                  <option>200g</option>
+                  <option>400g</option>
+                  <option>600g</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="main-box">
+            <div class="product01 positionReletive">
+              <div class="stars">
+                <form action="">
+                  <label class="star star-5" for="star-5" checked></label>
+                  <label class="star star-4" for="star-4"></label>
+                  <label class="star star-3" for="star-3"></label>
+                  <label class="star star-2" for="star-2"></label>
+                  <label class="star star-1" for="star-1"></label>
+                  <p class="box02-blur">(27)</p>
+                </form>
+              </div> 
+              <div class="new">
+                <p>New</p>
+              </div>
+              <img src="/img/sanpham/traoolong.jpg" alt="" class="positionAbsolute">
+              <div class="positionAbsolute title02">
+                <a href="/html/chitietsanpham.html">Trà Oolong</a>
+              </div>
+              <div class="price positionAbsolute ">
+                <p class="price-number">70,000</p>
+                <p class="price-curency">VND</p>
+                <select>
+                  <option>200g</option>
+                  <option>400g</option>
+                  <option>600g</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="main-box">
+            <div class="product01 positionReletive">
+              <div class="stars">
+                <form action="">
+                  <label class="star star-5" for="star-5" checked></label>
+                  <label class="star star-4" for="star-4"></label>
+                  <label class="star star-3" for="star-3"></label>
+                  <label class="star star-2" for="star-2"></label>
+                  <label class="star star-1" for="star-1"></label>
+                  <p class="box02-blur">(27)</p>
+                </form>
+              </div> 
+              <div class="new">
+                <p>New</p>
+              </div>
+              <img src="/img/sanpham/trabup.jpg" alt="" class="positionAbsolute">
+              <div class="positionAbsolute title03">
+                <a href="/html/chitietsanpham.html">Trà Búp</a>
+              </div>
+              <div class="price positionAbsolute ">
+                <p class="price-number">70,000</p>
+                <p class="price-curency">VND</p>
+                <select>
+                  <option>200g</option>
+                  <option>400g</option>
+                  <option>600g</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="main-box">
+            <div class="product01 positionReletive">
+              <div class="stars">
+                <form action="">
+                  <label class="star star-5" for="star-5" checked></label>
+                  <label class="star star-4" for="star-4"></label>
+                  <label class="star star-3" for="star-3"></label>
+                  <label class="star star-2" for="star-2"></label>
+                  <label class="star star-1" for="star-1"></label>
+                  <p class="box02-blur">(17)</p>
+                </form>
+              </div> 
+              <div class="new">
+                <p>New</p>
+              </div>
+              <img src="/img/sanpham/trashantuyet.jpg" alt="" class="positionAbsolute">
+              <div class="positionAbsolute title">
+                <a href="/html/chitietsanpham.html">Trà San Tuyết</a>
+              </div>
+              <div class="price positionAbsolute ">
+                <p class="price-number">50,000</p>
+                <p class="price-curency">VND</p>
+                <select>
+                  <option>200g</option>
+                  <option>400g</option>
+                  <option>600g</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="main-box">
+            <div class="product01 positionReletive">
+              <div class="stars">
+                <form action="">
+                  <label class="star star-5" for="star-5" checked></label>
+                  <label class="star star-4" for="star-4"></label>
+                  <label class="star star-3" for="star-3"></label>
+                  <label class="star star-2" for="star-2"></label>
+                  <label class="star star-1" for="star-1"></label>
+                  <p class="box02-blur">(27)</p>
+                </form>
+              </div> 
+              <div class="new">
+                <p>New</p>
+              </div>
+              <img src="/img/sanpham/traoolong.jpg" alt="" class="positionAbsolute">
+              <div class="positionAbsolute title02">
+                <a href="/html/chitietsanpham.html">Trà Oolong</a>
+              </div>
+              <div class="price positionAbsolute ">
+                <p class="price-number">70,000</p>
+                <p class="price-curency">VND</p>
+                <select>
+                  <option>200g</option>
+                  <option>400g</option>
+                  <option>600g</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="main-box">
+            <div class="product01 positionReletive">
+              <div class="stars">
+                <form action="">
+                  <label class="star star-5" for="star-5" checked></label>
+                  <label class="star star-4" for="star-4"></label>
+                  <label class="star star-3" for="star-3"></label>
+                  <label class="star star-2" for="star-2"></label>
+                  <label class="star star-1" for="star-1"></label>
+                  <p class="box02-blur">(27)</p>
+                </form>
+              </div> 
+              <div class="new">
+                <p>New</p>
+              </div>
+              <img src="/img/sanpham/trabup.jpg" alt="" class="positionAbsolute">
+              <div class="positionAbsolute title03">
+                <a href="/html/chitietsanpham.html">Trà Búp</a>
+              </div>
+              <div class="price positionAbsolute ">
+                <p class="price-number">70,000</p>
+                <p class="price-curency">VND</p>
+                <select>
+                  <option>200g</option>
+                  <option>400g</option>
+                  <option>600g</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="main-box">
+            <div class="product01 positionReletive">
+              <div class="stars">
+                <form action="">
+                  <label class="star star-5" for="star-5" checked></label>
+                  <label class="star star-4" for="star-4"></label>
+                  <label class="star star-3" for="star-3"></label>
+                  <label class="star star-2" for="star-2"></label>
+                  <label class="star star-1" for="star-1"></label>
+                  <p class="box02-blur">(17)</p>
+                </form>
+              </div> 
+              <div class="new">
+                <p>New</p>
+              </div>
+              <img src="/img/sanpham/trashantuyet.jpg" alt="" class="positionAbsolute">
+              <div class="positionAbsolute title">
+                <a href="/html/chitietsanpham.html">Trà San Tuyết</a>
+              </div>
+              <div class="price positionAbsolute ">
+                <p class="price-number">50,000</p>
+                <p class="price-curency">VND</p>
+                <select>
+                  <option>200g</option>
+                  <option>400g</option>
+                  <option>600g</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="main-box">
+            <div class="product01 positionReletive">
+              <div class="stars">
+                <form action="">
+                  <label class="star star-5" for="star-5" checked></label>
+                  <label class="star star-4" for="star-4"></label>
+                  <label class="star star-3" for="star-3"></label>
+                  <label class="star star-2" for="star-2"></label>
+                  <label class="star star-1" for="star-1"></label>
+                  <p class="box02-blur">(27)</p>
+                </form>
+              </div> 
+              <div class="new">
+                <p>New</p>
+              </div>
+              <img src="/img/sanpham/traoolong.jpg" alt="" class="positionAbsolute">
+              <div class="positionAbsolute title02">
+                <a href="/html/chitietsanpham.html">Trà Oolong</a>
+              </div>
+              <div class="price positionAbsolute ">
+                <p class="price-number">70,000</p>
+                <p class="price-curency">VND</p>
+                <select>
+                  <option>200g</option>
+                  <option>400g</option>
+                  <option>600g</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="main-box">
+            <div class="product01 positionReletive">
+              <div class="stars">
+                <form action="">
+                  <label class="star star-5" for="star-5" checked></label>
+                  <label class="star star-4" for="star-4"></label>
+                  <label class="star star-3" for="star-3"></label>
+                  <label class="star star-2" for="star-2"></label>
+                  <label class="star star-1" for="star-1"></label>
+                  <p class="box02-blur">(27)</p>
+                </form>
+              </div> 
+              <div class="new">
+                <p>New</p>
+              </div>
+              <img src="/img/sanpham/trabup.jpg" alt="" class="positionAbsolute">
+              <div class="positionAbsolute title03">
+                <a href="/html/chitietsanpham.html">Trà Búp</a>
+              </div>
+              <div class="price positionAbsolute ">
+                <p class="price-number">70,000</p>
+                <p class="price-curency">VND</p>
+                <select>
+                  <option>200g</option>
+                  <option>400g</option>
+                  <option>600g</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pagination positionAbsolute">
+          <a href="#">«</a>
+          <a class="active" href="#">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">»</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Footer -->
+<footer>
+  <div class="row">
+    <div class="background-img">
+      <div class="boxfooter1">
+        <img src="/img/trangchu/logophongtra.png" alt="">
+        <div class="information1">7999.999.999</div>
+        <div class="information1">trasenbachdiep@gmail.com</div>
+        <div class="information1">Số 12, Quảng An, Tây Hồ, Hà Nội</div>
+      </div>
+      <div class="boxfooter2">
+        <h6>VỀ CHÚNG TÔI</h6>
+        <div class="information2"><a href="/html/gioithieu.html">Giới thiệu</a></div>
+        <div class="information2"><a href="/html/sanpham.html">Sản phẩm</a></div>
+        <div class="information2"><a href="/html/tintuc.html">Tin tức</a></div>
+      </div>
+      <div class="boxfooter3">
+        <h6>LIÊN HỆ</h6>
+        <img src="/img/trangchu/footer icon.png" alt="">
+        <div class="information3">Copyright@2010-2020</div>
+        <div class="information3">TraSenBachDiep All Right Reserved</div>
+      </div>
+    </div>
+  </div>
+  </footer>
+
+
+  <!-- Script -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="/js/sanpham.js"></script>
+</body>
+</html>

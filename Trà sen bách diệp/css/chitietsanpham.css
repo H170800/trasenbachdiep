@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    list-style: none;
+}
+.positionAbsolute{
+    position: absolute;
+}
+.positionReletive{
+    position: relative;
+}
+@font-face {
+    font-family: "SVN-Athena_0";
+    src: url(/fonts/SVN-Athena_0.ttf);
+}
+.main-body{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+/* Thanh menu */
+#navbar-Logo{
+    margin-left: 5.5rem;
+}
+#navbar-Menu{
+    display: flex;
+}
+#navbar-Menu a{
+    color: #000;
+    margin-right: 2rem;
+    font-size: 0.65em;
+    font-weight: bold;
+    font-family: "SVN-Athena_0";
+}
+#navbarNavAltMarkup{
+    margin-left: -4rem;
+}
+#navbar-Menu a:hover{
+    color: #aabc44;
+}
+#navbar-Logo{
+    margin-right: 13rem
+}
+/* back ground */
+.back-ground01{
+    background-image: url(/img/chitietsanpham/background.jpg);
+    background-size: 57rem;
+    background-repeat: no-repeat;
+    border: 1px;
+    height: 49rem;
+    width: 57rem;
+
+}
+.bread-crum{
+    display: flex;
+    margin-left: 13% ;
+    margin-top: 1rem;
+}
+.blur{
+    margin-right: 0.4rem;
+    opacity: 0.3;
+    font-size: 0.65rem;
+}
+.blur a{
+    font-size: 0.65rem;
+    color: black;
+}
+.non-blur{
+    font-size: 0.65rem;
+    opacity: 0.5;
+}
+.blur a:hover{
+    color: #aabc44;
+    text-decoration: none;
+}
+.box02-top{
+    margin-left: 61%;
+}
+.box02-top h4{
+    font-family: "SVN-Athena_0";
+}
+/* Star */
+div.stars {
+    width: 210px;
+    display: inline-block;
+}
+input.star { display: none; }
+   
+label.star {
+    float: left;
+    padding: 3px;
+    font-size: 14px;
+    color: #aabc44;
+    transition: all .2s;
+    
+}
+   
+input.star:checked ~ label.star:before {
+    content: '\f005';
+    color: #aabc44;
+    transition: all .25s;
+  }
+   
+input.star-5:checked ~ label.star:before {
+    color: #aabc44;
+  }
+   
+input.star-1:checked ~ label.star:before { color: #F62; }
+   
+label.star:hover { transform: rotate(-15deg) scale(1.3); }
+   
+label.star:before {
+    content: '\f006';
+    font-family: FontAwesome;
+}
+.box02-blur{
+    opacity: 0.3;
+    font-size: 0.65rem;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    font-family: "SVN-Athena_0";
+}
+.price{
+    width: 20rem;
+    float: left;
+    margin-top: -5%;
+}
+.price-number{
+    float:left;
+    font-weight: 500;
+    font-size: 130%;
+}
+.price-curency{
+    float: left;
+    margin-top: 4%;
+    font-size: 60%;
+    font-weight: bolder;
+}
+.price select{
+    margin-left: 10%;
+    margin-top: 3%;
+    border: none;
+    font-size: 80%;
+    font-weight: bold;
+    opacity: 0.3;
+}
+.box02-top-title{
+    font-size: 70%;
+    font-weight: bolder;
+    font-family: "SVN-Athena_0";
+    margin-top: 5%;
+    width: 10rem;
+}
+.box02-top-article p{
+    font-size: 60%;
+    font-weight: 600;
+    opacity: 0.7;
+    font-family: "SVN-Athena_0";
+    width: 15rem;
+}
+.box01-mid{
+    margin-left: 25%;
+    margin-top: 7%;
+}
+.box01-mid h4{
+    width: 13rem;
+    font-family: "SVN-Athena_0";
+}
+.box01-mid i{
+    float:left;
+    color: #aabc44;
+}
+.box01-mid p{
+    font-size: 60%;
+    font-family: "SVN-Athena_0";
+    margin-left: 4%;
+    font-weight: bold;
+}
+.side-01 p{
+    font-size: 60%;
+    font-family: "SVN-Athena_0";
+    margin-left: 4%;
+    font-weight: bold;
+    width: 6rem;
+}
+.box01-mid img{
+    width: 50%;
+    margin-left: 30%;
+    margin-top: -25%;
+}
+.box01-bot h4{
+    font-family: "SVN-Athena_0";
+    margin-left: 45%;
+    margin-top: 5%;
+}
+
+/* footer */
+.row{
+    float:left;
+    margin-top: 20rem;
+}
+.background-img{
+    background-image: url(/img/trangchu/fotter.png);
+    background-size: 57rem;
+    background-repeat: no-repeat;
+    border: 1px;
+    width: 57rem;
+    margin-left: 2.75rem;
+    margin-bottom:-6rem;
+}
+.boxfooter1{
+    float:left;
+    margin-left: 10rem;
+}
+.boxfooter1 img{
+    width: 7rem;
+    margin-bottom: 0.5rem;
+}
+.information1{
+    font-size: 0.5rem;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+    margin-bottom: 0,6rem;
+}
+.boxfooter2{
+    float:left;
+    margin-left: 9rem;
+}
+.boxfooter2 h6{
+    font-size: 0.6rem;
+    padding-top:0.8rem;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+}
+.information2{
+    margin-bottom:-0.6rem;
+}
+.information2 a{
+    font-size:0.5rem; 
+    text-decoration: none;
+    color: black;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+}
+
+.information2 a:hover{
+    color: #aabc44;
+    text-decoration-line: none;
+}
+.boxfooter3{
+    float:left;
+    margin-left: 9rem;
+}
+.boxfooter3 h6{
+    font-size: 0.6rem;
+    padding-top:0.8rem;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+}
+.boxfooter3 img{
+    width: 5rem;
+}
+.information3{
+    font-size: 0.5rem;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+}

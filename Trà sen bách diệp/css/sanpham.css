@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    list-style: none;
+}
+.positionAbsolute{
+    position: absolute;
+}
+.positionReletive{
+    position: relative;
+}
+@font-face {
+    font-family: "SVN-Athena_0";
+    src: url(/fonts/SVN-Athena_0.ttf);
+}
+.main-body{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+/* Thanh menu */
+#navbar-Menu{
+    display: flex;
+}
+#navbar-Menu a{
+    color: #000;
+    margin-right: 2.7rem;
+    font-size: 0.65em;
+    font-weight: bold;
+    font-family: "SVN-Athena_0";
+}
+#navbar-Menu a:hover{
+    color: #aabc44;
+}
+#navbar-Logo{
+    margin-right: 13rem
+}
+.img-01{
+    background-image: url(/img/tintuc/background-tintuc.png);
+    background-size: 63.5rem;
+    background-repeat: no-repeat;
+    border: 1px;
+    height: 54rem;
+}
+.content-01 h4{
+    font-family: "SVN-Athena_0";
+    padding-top: 2rem;
+    padding-left: 28rem;
+}
+/* Body */
+.img-01{
+    background-image: url(/img/sanpham/banner.png);
+    background-repeat: no-repeat;
+    border: 1px;
+    margin-bottom: -41.5rem;
+}
+.img-01 h1{
+    font-family: "SVN-Athena_0";
+    padding-left: 45%;
+    padding-top: 5rem;
+    font-size: 180%;
+    font-weight: bold;
+}
+.bread-crum{
+    display: flex;
+    margin-left:10% ;
+    margin-top: 1rem;
+}
+.blur{
+    margin-right: 0.4rem;
+    opacity: 0.3;
+    font-size: 0.65rem;
+}
+.blur a{
+    font-size: 0.65rem;
+    color: black;
+}
+.non-blur{
+    font-size: 0.65rem;
+    opacity: 0.5;
+}
+.blur a:hover{
+    color: #aabc44;
+    text-decoration: none;
+}
+.article h4{
+    font-family: "SVN-Athena_0";
+    margin-left: 10%;
+}
+hr{
+    width: 80%;
+    margin-left: 10%;
+    font-weight: bolder;
+}
+.side-body{
+    margin-left: 10%;
+}
+.side-box p{
+    font-family: "SVN-Athena_0";
+}
+/* .side-body{
+
+} */
+.side-box p{
+    font-family: "SVN-Athena_0";
+    font-size: 100%;
+}
+.check-box01{
+    width: 140px; 
+    font-family: "SVN-Athena_0";
+}
+.check-box01 label{
+    font-size: 70%;
+    margin-bottom: -3rem;
+    opacity: 0.6;
+    font-weight: bold;
+}
+.filter01{
+    margin-right: 5px;
+}
+.price-filter{
+    width: 30%;
+}
+.price-filter p{
+    font-family: "SVN-Athena_0";
+    font-size: 100%;
+}
+.price-filter label{
+    font-size: 70%;
+    margin-bottom: -3rem;
+    opacity: 0.5;
+    font-weight: bold;
+    font-family: "SVN-Athena_0";
+}
+.check-box02{
+    width: 140px; 
+}
+.check-box02 p{
+    font-family: "SVN-Athena_0";
+    font-size: 100%;
+}
+.check-box02 label{
+    font-size: 70%;
+    margin-bottom: -3rem;
+    opacity: 0.5;
+    font-weight: bold;
+    font-family: "SVN-Athena_0";
+}
+.filter03{
+    margin-right: 5px;
+}
+/* main-box */
+.right-box{
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    /* grid-gap: 3%; */
+    margin-left: 15%;
+    grid-row-gap: 200%;
+    grid-column-gap: 3%;
+}
+.product01{
+    margin-left: 20%;
+}
+/* Star */
+div.stars {
+    width: 210px;
+    display: inline-block;
+}
+input.star { display: none; }
+   
+label.star {
+    float: left;
+    padding: 3px;
+    font-size: 9px;
+    color: #aabc44;
+    transition: all .2s;
+    
+}  
+input.star:checked ~ label.star:before {
+    content: '\f005';
+    color: #aabc44;
+   
+  }
+label.star:before {
+    content: '\f005';
+    font-family: FontAwesome;
+}
+.box02-blur{
+    opacity: 0.3;
+    font-size: 0.65rem;
+    float: left;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+}
+.new{
+    margin-top: -2.5rem;
+    margin-left: 7rem;
+    border: solid 1px greenyellow;
+    background-color: greenyellow;
+    border-width: 0px 12px;
+}
+.new p{
+    font-family: FontAwesome;
+    font-size: 12px;
+    text-align: center;
+    padding-right: 49px;
+}
+.product01 img{
+    width: 100%;
+}
+.title{
+    margin-top: 95%;
+    font-family: "SVN-Athena_0";
+    margin-left: 25%;
+}
+.title a{
+    color: black;
+    text-decoration: none;
+}
+.price{
+    width: 10rem;
+    float: left;
+    margin-top: 110%;
+    margin-left: 10%;
+}
+.price-number{
+    float:left;
+    font-weight: 500;
+    font-size: 90%;
+}
+.price-curency{
+    float: left;
+    margin-top: 4%;
+    font-size: 60%;
+    font-weight: bolder;
+}
+.price select{
+    margin-left: 10%;
+    margin-top: 3%;
+    border: none;
+    font-size: 80%;
+    font-weight: bold;
+    opacity: 0.3;
+}
+.title02{
+    margin-top: 95%;
+    font-family: "SVN-Athena_0";
+    margin-left: 30%;
+}
+.title02 a{
+    color: black;
+    text-decoration: none;
+}
+.title03{
+    margin-top: 95%;
+    font-family: "SVN-Athena_0";
+    margin-left: 35%;
+}
+.title03 a{
+    color: black;
+    text-decoration: none;
+}
+/* footer */
+.row{
+    float:left;
+    margin-top: 11rem;
+}
+.background-img{
+    background-image: url(/img/trangchu/fotter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px;
+    width: 100%;
+    margin-left: 5%;
+    margin-bottom:-6rem;
+    height: 10%;
+}
+.boxfooter1{
+    float:left;
+    margin-left: 17%;
+}
+.boxfooter1 img{
+    width: 76%;
+    margin-bottom: 5%;
+}
+.information1{
+    font-size: 0.5rem;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+    margin-bottom: 0,6rem;
+}
+.boxfooter2{
+    float:left;
+    margin-left: 9rem;
+}
+.boxfooter2 h6{
+    font-size: 0.6rem;
+    padding-top:0.8rem;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+}
+.information2{
+    margin-bottom:-0.6rem;
+}
+.information2 a{
+    font-size:0.5rem; 
+    text-decoration: none;
+    color: black;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+}
+
+.information2 a:hover{
+    color: #aabc44;
+    text-decoration-line: none;
+}
+.boxfooter3{
+    float:left;
+    margin-left: 9rem;
+}
+.boxfooter3 h6{
+    font-size: 0.6rem;
+    padding-top:0.8rem;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+}
+.boxfooter3 img{
+    width: 5rem;
+}
+.information3{
+    font-size: 0.5rem;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+}
+.pagination{
+    margin-top: 126%;
+    margin-left: 46%;
+}
+.pagination a {
+    color: black;
+    float: left;
+    font-size: 0.6rem;
+    padding: 0.5px 6px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1.5px solid #ddd;
+    margin-right: 0.5rem;
+}
+.pagination a.active {
+    background-color: white;
+    color: black;
+    border: 3px solid #aabc44;
+}
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  /* footer */
+.row{
+    float:left;
+    margin-top: 67rem;
+}
+.background-img{
+    background-image: url(/img/trangchu/fotter.png);
+    background-size: 57rem;
+    background-repeat: no-repeat;
+    border: 1px;
+    width: 57rem;
+    margin-left: 2.75rem;
+    margin-bottom:-6rem;
+    height: 8rem;
+}
+.boxfooter1{
+    float:left;
+    margin-left: 10rem;
+}
+.boxfooter1 img{
+    width: 7rem;
+    margin-bottom: 0.5rem;
+}
+.information1{
+    font-size: 0.5rem;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+    margin-bottom: 0,6rem;
+}
+.boxfooter2{
+    float:left;
+    margin-left: 9rem;
+}
+.boxfooter2 h6{
+    font-size: 0.6rem;
+    padding-top:0.8rem;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+}
+.information2{
+    margin-bottom:-0.6rem;
+}
+.information2 a{
+    font-size:0.5rem; 
+    text-decoration: none;
+    color: black;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+}
+
+.information2 a:hover{
+    color: #aabc44;
+    text-decoration-line: none;
+}
+.boxfooter3{
+    float:left;
+    margin-left: 9rem;
+}
+.boxfooter3 h6{
+    font-size: 0.6rem;
+    padding-top:0.8rem;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+}
+.boxfooter3 img{
+    width: 5rem;
+}
+.information3{
+    font-size: 0.5rem;
+    font-family: "SVN-Athena_0";
+    font-weight: bold;
+}
